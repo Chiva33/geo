@@ -13,7 +13,9 @@ public class Person {
     }
 
     public void appendToFamily(Person person){
-        family.add(person);
+        if (person != null && person != this) {
+            family.add(person);
+        }
     }
 
     public ArrayList<Person> getFamily() {

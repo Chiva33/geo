@@ -11,6 +11,7 @@ public class Main {
         firstPerson.appendToFamily(thirdPerson);
         firstPerson.appendToFamily(fourthPerson);
 
+
         view(firstPerson);
 
     }
